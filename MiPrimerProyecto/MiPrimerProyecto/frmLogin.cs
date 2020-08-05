@@ -25,7 +25,7 @@ namespace MiPrimerProyecto
             // if (this.txtUsurio.Texto == string.Empty)
             if (this.txtUsuario.Text=="")
             {
-                MessageBox.Show("Debe ingresar usuario...");
+                MessageBox.Show("Debe ingresar usuario");
                 this.txtUsuario.Focus();
                 return;
             }
@@ -33,7 +33,7 @@ namespace MiPrimerProyecto
             // if (string.IsNullOnEmpty(this.txtClave.Text))
             if (this.txtClave.Text== "") 
             {
-                MessageBox.Show("Debe ingresar clave...");
+                MessageBox.Show("Debe ingresar clave");
                 this.txtClave.Focus();
                 return;
             }

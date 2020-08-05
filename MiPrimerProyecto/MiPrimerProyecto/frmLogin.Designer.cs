@@ -40,9 +40,10 @@ namespace MiPrimerProyecto
             // 
             // btnIngresar
             // 
-            this.btnIngresar.Location = new System.Drawing.Point(41, 142);
+            this.btnIngresar.Location = new System.Drawing.Point(62, 218);
+            this.btnIngresar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnIngresar.Name = "btnIngresar";
-            this.btnIngresar.Size = new System.Drawing.Size(97, 23);
+            this.btnIngresar.Size = new System.Drawing.Size(146, 35);
             this.btnIngresar.TabIndex = 2;
             this.btnIngresar.Text = "Ingresar";
             this.btnIngresar.UseVisualStyleBackColor = true;
@@ -50,10 +51,11 @@ namespace MiPrimerProyecto
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(157, 142);
+            this.btnSalir.Location = new System.Drawing.Point(236, 218);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(97, 23);
-            this.btnSalir.TabIndex = 5;
+            this.btnSalir.Size = new System.Drawing.Size(146, 35);
+            this.btnSalir.TabIndex = 3;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
@@ -61,47 +63,52 @@ namespace MiPrimerProyecto
             // lblUsuario
             // 
             this.lblUsuario.AutoSize = true;
-            this.lblUsuario.Location = new System.Drawing.Point(64, 45);
+            this.lblUsuario.Location = new System.Drawing.Point(96, 69);
+            this.lblUsuario.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(43, 13);
-            this.lblUsuario.TabIndex = 2;
+            this.lblUsuario.Size = new System.Drawing.Size(64, 20);
+            this.lblUsuario.TabIndex = 4;
             this.lblUsuario.Text = "Usuario";
             this.lblUsuario.Click += new System.EventHandler(this.label1_Click);
             // 
             // lblClave
             // 
             this.lblClave.AutoSize = true;
-            this.lblClave.Location = new System.Drawing.Point(64, 85);
+            this.lblClave.Location = new System.Drawing.Point(96, 131);
+            this.lblClave.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblClave.Name = "lblClave";
-            this.lblClave.Size = new System.Drawing.Size(34, 13);
-            this.lblClave.TabIndex = 3;
+            this.lblClave.Size = new System.Drawing.Size(48, 20);
+            this.lblClave.TabIndex = 5;
             this.lblClave.Text = "Clave";
             // 
             // txtUsuario
             // 
-            this.txtUsuario.Location = new System.Drawing.Point(123, 42);
+            this.txtUsuario.Location = new System.Drawing.Point(184, 65);
+            this.txtUsuario.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(122, 20);
+            this.txtUsuario.Size = new System.Drawing.Size(181, 26);
             this.txtUsuario.TabIndex = 0;
             // 
             // txtClave
             // 
-            this.txtClave.Location = new System.Drawing.Point(123, 82);
+            this.txtClave.Location = new System.Drawing.Point(184, 126);
+            this.txtClave.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtClave.Name = "txtClave";
-            this.txtClave.Size = new System.Drawing.Size(122, 20);
+            this.txtClave.Size = new System.Drawing.Size(181, 26);
             this.txtClave.TabIndex = 1;
             // 
             // frmLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(281, 208);
+            this.ClientSize = new System.Drawing.Size(422, 320);
             this.Controls.Add(this.txtClave);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.lblClave);
             this.Controls.Add(this.lblUsuario);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnIngresar);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmLogin";
