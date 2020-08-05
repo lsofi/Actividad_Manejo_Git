@@ -13,7 +13,7 @@ namespace MiPrimerProyecto
     public partial class frmLogin : Form
     {
         string user = "admin";
-        string pass = "1234";
+        string pass = "123456";
         public frmLogin()
         {
             InitializeComponent();
